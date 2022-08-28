@@ -4,7 +4,6 @@ public class Challenge {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-<<<<<<< HEAD
         System.out.println("First salary: ");
         String value1 = input.next().replace(",",".");
         System.out.println("Second salary: ");
@@ -21,7 +20,6 @@ public class Challenge {
 
         System.out.println("The sum of salary is: " + sum);
         System.out.println("The average is: " + average);
-=======
         System.out.println("Enter your first salary: ");
         input.nextLine();
         System.out.println("Enter your second salary: ");
@@ -30,7 +28,6 @@ public class Challenge {
         input.nextLine();
         System.out.println();
 
->>>>>>> d65a763d095ff144190cb101cbf1ab75b375fb75
 
         input.close();
     }
